@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>This is the home of the prototype for the flip card game.  The idea is to have a game that will utilize JavaScript functionality to "flip the cards" and provide the translations.</p>
+        <div><button type="button" onclick="Flip()">Click me!</button></div>
+        <p id="wordrus">меня</p>
+        <script>
+            function Flip(){
+                let text = document.getElementById("wordrus").innerHTML;
+                document.getElementByID("wordrus").innerHTML = text.replace("меня","My");
+            }
+        </script>
+    </body>
+</html>
