@@ -1,5 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <h1>Welcome to the page for the matching game!</h1>
-    <p>Very exciting times we have going on here. We are going to make this into a game where we match Russian words to English words. "Davai!"</p>
+    <body>
+        <h1>Welcome to the page for the matching game!</h1>
+         <p>Very exciting times we have going on here. We are going to make this into a game where we match Russian words to English words. "Davai!"</p>
+
+         <p id="russian"></p>
+        <input type="radio" id="russian" name="russian" value="privyet">
+        <input type="radio" id="russian" name="russian" value="da">
+        
+         <p id="english"></p>
+
+
+         <button onclick="FunctionX()">Check it</button>
+         <script>
+             var russian = ["priyvet","da","nyet","ya","ti"];
+             var english = ["hi","yes","no","I","you"];
+             document.getElementById("russian").innerHTML = russian;
+             document.getElementById("english").innerHTML = english;
+             function FunctionX() {
+                alert(document.getElementById("russian") === document.getElementById("english"));
+             }
+         </script>
+    </body>
 </html>
