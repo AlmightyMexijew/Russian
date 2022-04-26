@@ -1,3 +1,4 @@
-td,tr{
-    border-radius: 2px solid black;
+td, tr{
+    border-color:black;
+    border-radius:2px solid;
 }
