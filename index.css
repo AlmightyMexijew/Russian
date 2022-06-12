@@ -1,0 +1,9 @@
+body {
+    background:linear-gradient(180deg,white 30%,blue 40%, red 30%) no-repeat;
+}
+
+ol {
+    font-family:sans-serif;
+    color:blue;
+    font-weight:300;
+}
